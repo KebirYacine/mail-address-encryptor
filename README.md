@@ -18,10 +18,10 @@ Please follow the bellow steps to use it:
 
 Use the email encryptor below, to encrypt your email and get your encrypted email link code :
 
- **1.** Put your email on the email input field. 
- **2.** If you want see the encrypted email, click on the Encrypt Email button . 
- **3.** If you want to use a canvas image, check the checkbox "Use Canvas image" .
- **4.** Click on the button Generate the code to get the email code to integrate on your page.
+> -  Put your email on the email input field. 
+> -  If you want see the encrypted email, click on the Encrypt Email button . 
+> -  If you want to use a canvas image, check the checkbox "Use Canvas image" .
+> -  Click on the button Generate the code to get the email code to integrate on your page.
 
 Tested on
 ------------
