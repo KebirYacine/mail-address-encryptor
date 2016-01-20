@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+ *
+-->
+
+<xwikidoc>
+<web>MailAddressEncryptor</web>
+<name>ApplicationsPanelEntry</name>
+<language></language>
+<defaultLanguage>en</defaultLanguage>
+<translation>0</translation>
+<parent></parent>
+<creator>xwiki:XWiki.Admin</creator>
+<author>xwiki:XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+<creationDate>1453330776000</creationDate>
+<date>1453330776000</date>
+<contentUpdateDate>1453330776000</contentUpdateDate>
+<version>5.1</version>
+<title></title>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment>Copied from souswikitest:MailAddressEncryptor.ApplicationsPanelEntry</comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.1</syntaxId>
+<hidden>true</hidden>
+<object>
+<class>
+<name>XWiki.UIExtensionClass</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<content>
+<disabled>0</disabled>
+<name>content</name>
+<number>3</number>
+<prettyName>Extension Content</prettyName>
+<rows>10</rows>
+<size>40</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</content>
+<extensionPointId>
+<disabled>0</disabled>
+<name>extensionPointId</name>
+<number>1</number>
+<prettyName>Extension Point ID</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</extensionPointId>
+<name>
+<disabled>0</disabled>
+<name>name</name>
+<number>2</number>
+<prettyName>Extension ID</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</name>
+<parameters>
+<disabled>0</disabled>
+<name>parameters</name>
+<number>4</number>
+<prettyName>Extension Parameters</prettyName>
+<rows>10</rows>
+<size>40</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</parameters>
+<scope>
+<cache>0</cache>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>scope</name>
+<number>5</number>
+<prettyName>Extension Scope</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators>|, </separators>
+<size>1</size>
+<unmodifiable>0</unmodifiable>
+<values>wiki=Current Wiki|user=Current User|global=Global</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</scope>
+</class>
+<name>MailAddressEncryptor.ApplicationsPanelEntry</name>
+<number>0</number>
+<className>XWiki.UIExtensionClass</className>
+<guid>d5814676-3791-464b-adef-ad1bc89177ae</guid>
+<property>
+<content></content>
+</property>
+<property>
+<extensionPointId>org.xwiki.platform.panels.Applications</extensionPointId>
+</property>
+<property>
+<name>platform.mail-address-encryptor.MailAddressEncryptorApplications</name>
+</property>
+<property>
+<parameters>label=$services.localization.render('MailAddressEncryptor.applicationsPanelEntryLabel')
+target=MailAddressEncryptor.WebHome
+icon=icon:email</parameters>
+</property>
+<property>
+<scope>wiki</scope>
+</property>
+</object>
+<content>{{include document="XWiki.UIExtensionSheet"/}}</content></xwikidoc>
